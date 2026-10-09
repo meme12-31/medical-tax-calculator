@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/column/medical-deduction-basics":{},"/column/medical-deduction-calculation":{},"/column/eligible-medical-expenses":{},"/column/transportation-costs":{},"/column/family-deduction-comparison":{},"/column/self-medication-tax-system":{},"/column/furusato-tax-deduction-impact":{},"/column/tax-return-procedure-guide":{},"/column/dental-treatment-deduction":{},"/column/insurance-claim-reimbursement":{}},"dynamicRoutes":{"/column/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/column/[slug]","routeRegex":"^\\/column\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"2be6485d06284238a0ab7ebfccd6eb9c","previewModeSigningKey":"0538c51d748750a314e3a8b5164359f994496aed6507ef2b0816805306774edf","previewModeEncryptionKey":"ba4a008a82cf5ebf5603e420bdec8e1641fb6d48963a62a5b65bcc0b27c49b91"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "13a9ec08ce0ef1c436b65d9b5c8cab36",
+    "previewModeSigningKey": "95e0b4f6c256248231ab10b85184229db05bef5f764baed132601e9df09cf108",
+    "previewModeEncryptionKey": "52e0c7db9aca4a068ff01cea1f5e7a9f977fd98237b22bd2b855f5cfeaba323b"
+  }
+}

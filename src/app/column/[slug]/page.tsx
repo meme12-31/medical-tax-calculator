@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: 'HITtools',
       images: [
         {
-          url: 'https://hit-tool.com/medical-tax-calculator/images/logo.png',
+          url: 'https://hit-tool.com/medical-tax-calculator/images/ogp.png',
           width: 1200,
           height: 630,
           alt: article.title,
@@ -68,6 +68,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'article',
       publishedTime: article.publishedAt,
       modifiedTime: article.updatedAt,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: metaTitle,
+      description: article.description,
+      images: ['https://hit-tool.com/medical-tax-calculator/images/ogp.png'],
     },
   };
 }
