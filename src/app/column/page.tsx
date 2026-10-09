@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: 'HITtools',
     images: [
       {
-        url: 'https://medical-tax-calculator.vercel.app/medical-tax-calculator/ogp.png',
+        url: 'https://hit-tool.com/medical-tax-calculator/ogp.png',
         width: 1200,
         height: 630,
         alt: '医療費控除お役立ち解説コラム一覧',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: '医療費控除のお役立ち解説コラム一覧 | HITtools',
     description:
       '医療費控除の対象範囲や計算式、家族合算の裏ワザ、セルフメディケーション税制との比較までわかりやすく解説。確定申告の疑問を解消。無料・登録不要で試算可能。',
-    images: ['https://medical-tax-calculator.vercel.app/medical-tax-calculator/ogp.png'],
+    images: ['https://hit-tool.com/medical-tax-calculator/ogp.png'],
   },
 };
 

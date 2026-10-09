@@ -14,22 +14,22 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://medical-tax-calculator.vercel.app'),
+  metadataBase: new URL('https://hit-tool.com'),
   title: '医療費控除の還付額計算 | 確定申告で戻る税金を簡単シミュレーション',
   description:
     '医療費控除の還付額と住民税軽減額を30秒で自動計算。1年間の医療費と年収を入力するだけで、家族合算やセルフメディケーション税制との比較判定、ふるさと納税上限額への影響も一発把握。無料・登録不要で使えます。',
   alternates: {
-    canonical: 'https://medical-tax-calculator.vercel.app/medical-tax-calculator',
+    canonical: 'https://hit-tool.com/medical-tax-calculator',
   },
   openGraph: {
     title: '医療費控除の還付額計算 | 確定申告で戻る税金を簡単シミュレーション',
     description:
       '医療費控除の還付額と住民税軽減額を30秒で自動計算。1年間の医療費と年収を入力するだけで、家族合算やセルフメディケーション税制との比較判定、ふるさと納税上限額への影響も一発把握。無料・登録不要で使えます。',
-    url: 'https://medical-tax-calculator.vercel.app/medical-tax-calculator/',
+    url: 'https://hit-tool.com/medical-tax-calculator',
     siteName: '医療費控除シミュレーター',
     images: [
       {
-        url: 'https://medical-tax-calculator.vercel.app/medical-tax-calculator/ogp.png',
+        url: 'https://hit-tool.com/medical-tax-calculator/ogp.png',
         width: 1200,
         height: 630,
         alt: '医療費控除の還付額計算シミュレーター',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: '医療費控除の還付額計算 | 確定申告で戻る税金を簡単シミュレーション',
     description:
       '医療費控除の還付額と住民税軽減額を30秒で自動計算。1年間の医療費と年収を入力するだけで、家族合算やセルフメディケーション税制との比較判定、ふるさと納税上限額への影響も一発把握。無料・登録不要で使えます。',
-    images: ['https://medical-tax-calculator.vercel.app/medical-tax-calculator/ogp.png'],
+    images: ['https://hit-tool.com/medical-tax-calculator/ogp.png'],
   },
 };
 

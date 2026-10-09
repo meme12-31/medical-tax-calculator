@@ -22,9 +22,9 @@ export const PrintLayout: React.FC<PrintLayoutProps> = ({
       {/* 印刷ヘッダー */}
       <div className="border-b-2 border-slate-800 pb-3 flex justify-between items-end">
         <div>
-          <h1 className="text-xl font-bold text-slate-900">
+          <h2 className="text-xl font-bold text-slate-900">
             医療費控除 還付額シミュレーション結果明細書
-          </h1>
+          </h2>
           <p className="text-xs text-slate-600 mt-0.5">
             HITtools 医療費控除計算シミュレーター（2026年 令和8年確定申告対応）
           </p>
