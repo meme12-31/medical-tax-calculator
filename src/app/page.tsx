@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://medical-tax-calculator.vercel.app'),
   title: '医療費控除の還付額計算 ｜ 確定申告で戻る税金を簡単シミュレーション',
   description:
     '医療費控除の還付額と住民税軽減額を30秒で自動計算。家族合算やセルフメディケーション税制との比較判定、ふるさと納税上限額への影響も一発把握。無料・登録不要。',
