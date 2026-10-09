@@ -1,0 +1,30 @@
+[
+  {
+    "name": "給与の所得税 早見計算",
+    "url": "https://hit-tool.com/tax-calculator",
+    "description": "毎月の給与や賞与にかかる所得税額をスピーディに計算・確認できるツール",
+    "category": "税金・給与",
+    "icon": "Banknote"
+  },
+  {
+    "name": "CalcNote - メモ＆手書きができる無料電卓アプリ",
+    "url": "https://hit-tool.com/calcnote",
+    "description": "テキストと一緒に計算式を残して自動計算・保存ができる計算メモツール",
+    "category": "計算・メモ",
+    "icon": "FileText"
+  },
+  {
+    "name": "時給計算・シフト＆目標逆算ツール",
+    "url": "https://hit-tool.com/hourly-wage-calculator",
+    "description": "勤務時間や時給からの給与計算のほか、目標金額に必要な労働時間を逆算できるツール",
+    "category": "給与・シフト",
+    "icon": "Clock"
+  },
+  {
+    "name": "今日の服装ナビ | 天気に合わせた服装提案",
+    "url": "https://hit-tool.com/fashion-weather",
+    "description": "気温や天候に合わせた最適なコーディネートや服装を提案できるツール",
+    "category": "天気・服装",
+    "icon": "Shirt"
+  }
+]
