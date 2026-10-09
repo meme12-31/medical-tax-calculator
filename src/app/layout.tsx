@@ -46,6 +46,21 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head>
+        {/* Google Analytics (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-KXFP18WL67"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-KXFP18WL67');
+            `,
+          }}
+        />
         <link rel="icon" href="/medical-tax-calculator/images/logo.png" />
       </head>
       <body className="min-h-screen flex flex-col justify-between bg-slate-50 text-slate-900 font-sans">
