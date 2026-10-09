@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: 'HITtools',
       images: [
         {
-          url: 'https://hit-tool.com/medical-tax-calculator/images/ogp.png',
+          url: 'https://medical-tax-calculator.vercel.app/medical-tax-calculator/ogp.png',
           width: 1200,
           height: 630,
           alt: article.title,
@@ -73,7 +73,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: metaTitle,
       description: article.description,
-      images: ['https://hit-tool.com/medical-tax-calculator/images/ogp.png'],
+      images: ['https://medical-tax-calculator.vercel.app/medical-tax-calculator/ogp.png'],
     },
   };
 }
