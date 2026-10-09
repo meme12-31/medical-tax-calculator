@@ -13,18 +13,16 @@ import {
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://medical-tax-calculator.vercel.app'),
-  title: '医療費控除の還付額計算 ｜ 確定申告で戻る税金を簡単シミュレーション',
-  description:
-    '医療費控除の還付額と住民税軽減額を30秒で自動計算。家族合算やセルフメディケーション税制との比較判定、ふるさと納税上限額への影響も一発把握。無料・登録不要。',
+  title: '医療費控除の還付額計算 | 確定申告で戻る税金を簡単シミュレーション',
+  description: '医療費控除とセルフメディケーション税制のどちらがお得か一発判定！',
   alternates: {
     canonical: 'https://medical-tax-calculator.vercel.app/medical-tax-calculator',
   },
   openGraph: {
-    title: '医療費控除の還付額計算 ｜ 確定申告で戻る税金を簡単シミュレーション',
-    description:
-      '医療費控除の還付額と住民税軽減額を30秒で自動計算。家族合算やセルフメディケーション税制との比較判定、ふるさと納税上限額への影響も一発把握。無料・登録不要。',
-    url: 'https://medical-tax-calculator.vercel.app/medical-tax-calculator',
-    siteName: 'HITtools',
+    title: '医療費控除の還付額計算 | 確定申告で戻る税金を簡単シミュレーション',
+    description: '医療費控除とセルフメディケーション税制のどちらがお得か一発判定！',
+    url: 'https://medical-tax-calculator.vercel.app/medical-tax-calculator/',
+    siteName: '医療費控除シミュレーター',
     images: [
       {
         url: 'https://medical-tax-calculator.vercel.app/medical-tax-calculator/ogp.png',
@@ -38,9 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '医療費控除の還付額計算 ｜ 確定申告で戻る税金を簡単シミュレーション',
-    description:
-      '医療費控除の還付額と住民税軽減額を30秒で自動計算。家族合算やセルフメディケーション税制との比較判定、ふるさと納税上限額への影響も一発把握。無料・登録不要。',
+    title: '医療費控除の還付額計算 | 確定申告で戻る税金を簡単シミュレーション',
+    description: '医療費控除とセルフメディケーション税制のどちらがお得か一発判定！',
     images: ['https://medical-tax-calculator.vercel.app/medical-tax-calculator/ogp.png'],
   },
 };
