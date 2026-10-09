@@ -4,20 +4,20 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://hit-tool.com/medical-tax-calculator'),
+  metadataBase: new URL('https://medical-tax-calculator.vercel.app'),
   title: '医療費控除の還付額計算シミュレーター | HITtools',
-  description: '医療費控除の還付額や減税額を簡単にシミュレーションできる無料ツールです。',
+  description: '医療費控除の還付額と住民税軽減額を30秒で自動計算。',
   alternates: {
-    canonical: 'https://hit-tool.com/medical-tax-calculator',
+    canonical: 'https://medical-tax-calculator.vercel.app/medical-tax-calculator',
   },
   openGraph: {
     title: '医療費控除の還付額計算シミュレーター | HITtools',
-    description: '医療費控除の還付額や減税額を簡単にシミュレーションできる無料ツールです。',
-    url: 'https://hit-tool.com/medical-tax-calculator',
+    description: '医療費控除の還付額と住民税軽減額を30秒で自動計算。',
+    url: 'https://medical-tax-calculator.vercel.app/medical-tax-calculator',
     siteName: 'HITtools',
     images: [
       {
-        url: 'https://hit-tool.com/medical-tax-calculator/images/ogp.png',
+        url: 'https://medical-tax-calculator.vercel.app/images/ogp.png',
         width: 1200,
         height: 630,
         alt: '医療費控除の還付額計算シミュレーター',
@@ -28,9 +28,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '医療費控除の還付額計算シミュレーター | HITtools',
-    description: '医療費控除の還付額や減税額を簡単にシミュレーションできる無料ツールです。',
-    images: ['https://hit-tool.com/medical-tax-calculator/images/ogp.png'],
+    images: ['https://medical-tax-calculator.vercel.app/images/ogp.png'],
   },
   robots: {
     index: true,
