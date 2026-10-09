@@ -9,6 +9,8 @@ import {
   Sparkles,
   FileText,
   CheckCircle2,
+  Home,
+  ChevronRight,
 } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -43,10 +45,27 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  // 構造化データ (JSON-LD: WebApplication + FAQPage)
+  // 構造化データ (JSON-LD: BreadcrumbList + WebApplication + FAQPage)
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'HITtools',
+            item: 'https://hit-tool.com/',
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: '医療費控除シミュレーター',
+            item: 'https://hit-tool.com/medical-tax-calculator',
+          },
+        ],
+      },
       {
         '@type': 'WebApplication',
         name: '医療費控除の還付額計算シミュレーター',
@@ -83,7 +102,28 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-8 sm:space-y-12">
+        {/* パンくずリスト */}
+        <nav aria-label="Breadcrumb" className="text-xs text-slate-500">
+          <ol className="flex items-center gap-2 flex-wrap">
+            <li className="flex items-center gap-1.5 hover:text-slate-800 transition-colors">
+              <Home className="w-3.5 h-3.5 text-slate-400" />
+              <a
+                href="https://hit-tool.com/"
+                className="hover:underline hover:text-slate-900 transition-colors"
+              >
+                ホーム
+              </a>
+            </li>
+            <li>
+              <ChevronRight className="w-3 h-3 text-slate-400" />
+            </li>
+            <li className="text-slate-800 font-bold" aria-current="page">
+              医療費控除シミュレーター
+            </li>
+          </ol>
+        </nav>
+
         {/* ページヒーロー・導入セクション (サーバーサイドレンダリング) */}
         <section className="text-center space-y-4 max-w-3xl mx-auto">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-brand-100 text-brand-800 border border-brand-200 shadow-2xs">
