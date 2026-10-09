@@ -5,7 +5,7 @@ type AppRoutes = "/" | "/column" | "/column/[slug]" | "/med-calculator"
 type PageRoutes = never
 type LayoutRoutes = "/"
 type RedirectRoutes = never
-type RewriteRoutes = never
+type RewriteRoutes = "/images/[[...path]]"
 type Routes = AppRoutes | PageRoutes | LayoutRoutes | RedirectRoutes | RewriteRoutes
 
 
@@ -13,6 +13,7 @@ interface ParamMap {
   "/": {}
   "/column": {}
   "/column/[slug]": { "slug": string; }
+  "/images/[[...path]]": { "path"?: string[]; }
   "/med-calculator": {}
 }
 
